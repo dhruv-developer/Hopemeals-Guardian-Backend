@@ -1,0 +1,74 @@
+# ----------------------------
+# Hopemeals Guardian (Backend)
+# .gitignore
+# ----------------------------
+
+# OS / Editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.orig
+.idea/
+.vscode/
+
+# Python bytecode / caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Coverage / testing artifacts
+.coverage
+.coverage.*
+htmlcov/
+.junit.xml
+.pyre/
+.tox/
+.nox/
+
+# Local environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Application runtime data (kept empty via .gitkeep)
+app/storage/*
+!app/storage/.gitkeep
+
+app/ledger/*
+!app/ledger/.gitkeep
+
+# Generated ELA outputs (already under app/storage/)
+app/storage/ela/
+
+# Logs and temp files
+*.log
+logs/
+tmp/
+temp/
+
+# Notebooks (if any)
+.ipynb_checkpoints/
+
+# Pyenv version file (optional)
+.python-version
