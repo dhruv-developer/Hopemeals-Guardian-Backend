@@ -86,7 +86,6 @@ python tools/synth_data.py
 ## Links
 
 * **Demo Video:** https://www.loom.com/share/26098928535f446897df80ffa68398c6
-* **Live Demo:** _[Deployment link coming soon]_
 
 ---
 
