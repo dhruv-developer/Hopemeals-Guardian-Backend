@@ -104,15 +104,6 @@ python tools/synth_data.py
 
 All project documentation is available in the `/docs` directory and published as a static site.
 
-Key references:
-
-* [Runbook](./docs/RUNBOOK.md) – demo and local setup steps
-* [Architecture](./docs/ARCHITECTURE.md) – detailed components and diagrams
-* [API Reference](./docs/API.md) – endpoints with curated examples
-* [Model Cards](./docs/MODEL_CARDS) – anomaly, ELA, RAG/NLP behaviors and limitations
-* [SOPs](./docs/SOPs) – evidence intake, image forensics, triage, incident response
-* [Security & Privacy](./docs/SECURITY_PRIVACY.md) – RBAC, PII handling, logs
-
 ---
 
 ## Security & Privacy
